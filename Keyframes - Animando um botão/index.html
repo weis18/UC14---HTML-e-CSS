@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes</title>
+
+    <style>
+        @keyframes moverbotao {
+            0% {
+                left: 0px;
+                background-color: #4169E1;
+            }
+
+            50% {
+                left: 500px;
+                background-color: #6A5ACD;
+            }
+
+            100% {
+                left: 0px;
+                background-color: #191970;
+            }
+        }
+
+        button {
+            position: relative;
+            padding: 15px 30px;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+
+            animation: moverbotao 3s infinite;
+        }
+        
+    </style>
+</head>
+<body>
+    <button>Exemplo de Keyframe</button>
+</body>
+</html>
